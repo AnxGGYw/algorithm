@@ -31,6 +31,8 @@
 </template>
 
 <script>
+import '@/js/test'
+
 export default {
   name: 'HelloWorld',
   props: {
