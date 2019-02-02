@@ -2,9 +2,9 @@
  * @Description: 选择排序
  * @Author: cggcbb
  * @Date: 2019-02-01 10:39:09
- * @LastEditTime: 2019-02-01 11:09:01
+ * @LastEditTime: 2019-02-02 09:37:46
  */
-import { swap } from '@/js/util'
+import util from '@/js/util/util'
 
  export default class SelectionSort {
     static sort(arr) {
@@ -15,7 +15,7 @@ import { swap } from '@/js/util'
             minIndex = j
           }
         }
-        swap(arr, i, minIndex)
+        util.swap(arr, i, minIndex)
       }
       return arr
     }
