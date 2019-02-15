@@ -2,12 +2,12 @@
  * @Description: 快速排序
  * @Author: cggcbb
  * @Date: 2019-02-13 15:14:49
- * @LastEditTime: 2019-02-15 16:09:04
+ * @LastEditTime: 2019-02-15 16:10:39
  */
 import util from '@/js/util/util'
 import InsertionSort from './InsertionSort'
 
-// 临界点  排序数组长度小于该临界点, 归并排序改为插入排序
+// 临界点  排序数组长度小于该临界点, 快速排序改为插入排序
 const CRITICAL_POINT = 15
 
 export default class QuickSort {
